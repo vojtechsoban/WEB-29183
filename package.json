@@ -1,0 +1,16 @@
+{
+  "name": "WEB-29183",
+  "version": "1.0.0",
+  "description": "",
+  "private": false,
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "author": "vojtech.soban@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "karma": "^1.7.1",
+    "mocha": "^4.0.1"
+  }
+}
