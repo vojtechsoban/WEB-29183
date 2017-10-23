@@ -4,13 +4,21 @@
   "description": "",
   "private": false,
   "scripts": {
-    "test": "mocha --recursive"
+    "test": "mocha --recursive",
+    "karma": "karma start"
   },
   "author": "vojtech.soban@gmail.com",
   "license": "MIT",
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
     "chai": "^4.1.2",
     "karma": "^1.7.1",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-mocha": "^1.3.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^2.0.5",
     "mocha": "^4.0.1"
   }
 }

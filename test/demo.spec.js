@@ -4,5 +4,8 @@ describe('WEB-29183 demo', function() {
   it('Do it', function() {
     expect(1).to.be.equal(1)
   });
+  it('Don\'t do it', function() {
+    expect(1).to.be.equal(1)
+  });
 });
 
